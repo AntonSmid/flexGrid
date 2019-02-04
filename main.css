@@ -75,7 +75,7 @@ nav ul li a:hover {
 
 #menu-btn {
   padding: 5px;
-  bottom: 2px solid #2b98f0;
+  border: 2px solid #2b98f0;
   cursor: pointer;
   align-self: center;
 }
@@ -88,7 +88,19 @@ nav ul li a:hover {
   transition: transform 1s ease;
 }
 
-/* do 17:44 */
+.turn .bar1 {
+  transform: rotate(-45deg) translate(-7px, 6px);
+}
+
+.turn .bar2 {
+  opacity: 0;
+}
+
+.turn .bar3 {
+  transform: rotate(45deg) translate(-7px, -8px);
+}
+
+
 
 
 
