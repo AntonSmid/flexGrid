@@ -646,7 +646,7 @@ nav ul li a:hover {
   }
 }
 
-@media screen and (min-width: 776px) {
+@media screen and (min-width: 992px) {
   .team-member {
     flex: 0 0 calc(25% - 10px);
   }
