@@ -652,7 +652,54 @@ nav ul li a:hover {
   }
 }
 
+/* ==== Customer Section ==== */
 
+#customer {
+  padding: 40px;
+  background: #191919;
+}
+
+.customer {
+  color: #f5f5f5;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.customer img {
+  border-radius: 50%;
+  max-width: 200px;
+}
+
+.customer h3 {
+  margin: 10px 0;
+  text-transform: capitalize;
+  color: #2b98f0;
+}
+
+.customer h5 {
+  text-transform: uppercase;
+  color: #959595;
+}
+
+.customer p {
+  line-height: 1.5;
+  width: 75%;
+  margin: 10px auto;
+}
+
+/* ==== Customer Section Responsive ==== */
+
+@media screen and (min-width: 776px) {
+  .customer-center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .customer {
+    flex: 0 0 calc(33.33% - 1em);
+  }
+}
 
 
 
