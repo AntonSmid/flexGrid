@@ -774,7 +774,15 @@ display: block;
   }
 }
 
-
+footer {
+  background: #191919;
+  color: #f5f5f5;
+  text-align: center;
+  height: 60px;
+  padding-top: 22px;
+  font-weight: 100;
+  font-size: 16px;
+}
 
 
 
